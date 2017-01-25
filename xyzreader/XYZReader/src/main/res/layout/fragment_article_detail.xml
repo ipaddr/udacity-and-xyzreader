@@ -86,7 +86,7 @@
                     android:layout_marginRight="@dimen/detail_inner_horiz_margin"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
                     android:textColor="@android:color/black"
-                    android:textColorLink="@color/theme_accent"
+                    android:textColorLink="@color/colorAccent"
                     android:textSize="@dimen/detail_body_text_size"
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier" />
 
@@ -105,6 +105,8 @@
         android:layout_height="56dp"
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
-        android:contentDescription="@string/action_share" />
+        android:contentDescription="@string/action_share"
+        app:layout_behavior="com.example.xyzreader.ui.ScrollAwareFABBehavior"
+        />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
