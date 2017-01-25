@@ -1,5 +1,6 @@
 <resources>
-    <!-- Normal margin or padding -->
+    <!-- Margin or padding -->
+    <dimen name="small_margin_padding">8dp</dimen>
     <dimen name="normal_margin_padding">16dp</dimen>
 
     <!-- detail -->
