@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:theme="@style/Theme.AppBarOverlay"
+        android:elevation="@dimen/app_bar_elevation"
         app:layout_scrollFlags="scroll|enterAlways">
 
         <android.support.v7.widget.Toolbar
